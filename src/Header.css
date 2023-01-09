@@ -1,0 +1,214 @@
+.Header{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+
+.header-nav{
+margin-bottom: 30px;
+display: inline;
+   
+}
+
+.navbutton{
+    color: white;
+    background-color: black;
+    font-size: 33px;
+    margin-top: 30px;
+    margin-bottom: 33px;
+    margin-left: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    
+
+}
+.navbutton:hover {
+    
+    border-color: lime;
+}
+
+article {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.heading {
+    font-size: 33px ;
+}
+
+
+.accordion{
+    text-align: center;
+}
+
+.accordion section > .accordion_content1 {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+    color: black;
+}
+
+.accordion section > .accordion_content2 {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+    color: black;
+}
+
+
+
+.accordion section > .accordion_content3 {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+    color: black;
+}
+
+.accordion_content1 {
+
+    margin-left: 45vw;
+}
+
+.accordion_content2 {
+
+    margin-left: 45vw;
+}
+
+
+.accordion_content3 {
+
+    margin-left: 45vw;
+}
+
+
+.accordion section:hover > .accordion_content1 {
+    margin-left: 27vw;
+    height: 12em;
+    width: 13em;
+    background-color: lime;
+    border-radius: 10px;
+}
+
+.accordion section:hover > .accordion_content2 {
+    margin-left: 27vw;
+    height: 23em;
+    width: 13em;
+    background-color: lime;
+    border-radius: 10px;
+}
+
+.accordion section:hover > .accordion_content3 {
+    margin-left: 23vw;
+    height: 15em;
+    width: 15em;
+    background-color: lime;
+    border-radius: 10px;
+}
+
+
+
+
+
+.logo2{
+    height: 100px;
+    width: 100px;
+    margin-left: 80vw;
+    margin-top: 1VH;
+    position: sticky;
+
+}
+
+/* iPAD/TABLETS*/
+
+@media (min-width: 500px){
+
+    .logo2{
+        height: 100px;
+        width: 100px;
+        position: sticky;
+      
+    }  
+    .accordion section:hover > .accordion_content1 {
+            margin-left: 42vw;
+            height: 12em;
+            width: 13em;
+            background-color: lime;
+            border-radius: 10px;
+        }
+        
+    .accordion section:hover > .accordion_content2 {
+            margin-left: 42vw;
+            height: 20em;
+            width: 13em;
+            
+            background-color: lime;
+            border-radius: 10px;
+        }
+        
+      
+    .accordion section:hover > .accordion_content3 {
+           margin-left: 40vw;
+            height: 15em;
+            width: 15em;
+            background-color: lime;
+            border-radius: 10px;
+        }
+    
+
+}
+
+/* WIDESCREEN*/
+
+@media (min-width: 1440px){
+    .title-container{
+        width: 100vw;
+    
+    }
+    
+    .title {
+        font-size: 125px;
+        
+    }
+    
+    
+
+    .logo2{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        margin-top: 0px;
+        left: 200px;
+        bottom: 0;
+    }
+        .accordion section:hover > .accordion_content1 {
+            margin-left: 42vw;
+            height: 12em;
+            width: 13em;
+            background-color: lime;
+            border-radius: 10px;
+        }
+                .accordion section:hover > .accordion_content2 {
+            margin-left: 42vw;
+            height: 22em;
+            width: 13em;
+          
+            background-color: lime;  
+            border-radius: 10px;
+        }
+        .accordion section:hover > .accordion_content3 {
+           margin-left: 40vw;
+            height: 15em;
+            width: 15em;
+            background-color: lime;
+            border-radius: 10px;
+        }
+    
+
+}
+
+

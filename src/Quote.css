@@ -1,0 +1,129 @@
+.title-container{
+    width: 100vw;
+    
+    }
+    
+    .title {
+            font-size: 75px;
+        
+        }
+    
+.about{
+    background-color: rgba(0, 0, 128, 0.796);
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    color: white;
+    
+
+
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+}
+
+.navbutton1{
+    color: white;
+    background-color: rgb(1, 1, 75);
+    margin-top: 30px;
+    margin-bottom: 33px;
+    margin-left: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 33px;
+    
+
+}
+
+.navbutton1:hover {
+    
+    border-color: lime;
+}
+
+
+.input{
+    height: 10vh;
+    width: 40vw;
+    text-align: center ;
+}
+
+.form-container {
+    width: 90vw;   
+    background: linear-gradient(60deg, rgb(231, 93, 219), rgb(136, 80, 247), rgb(89, 39, 255), rgb(4, 255, 0)) ;
+    border: 3px solid white;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 42vw;
+    }
+
+.center-form{
+    margin-left: -38vw;
+    justify-content: center;
+
+
+}
+
+#status {
+    text-align: center;
+}
+
+ .logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 75vw;
+    }
+
+    .file-amount{
+        display: inline;
+        
+    }
+    
+/*WIDESCREEN*/
+@media (min-width: 1440px) {
+    
+.title-container{
+width: 100vw;
+
+}
+
+.title {
+        font-size: 125px;
+    
+    }
+
+
+
+.form-container{
+   margin-bottom: 33px;
+    margin-left: 36vw;
+    background: linear-gradient(60deg, rgb(231, 93, 219), rgb(136, 80, 247), rgb(89, 39, 255), rgb(4, 255, 0)) ;
+    border: 3px solid white;
+    justify-content: center;
+    width: 35%;
+
+
+}
+
+.center-form{
+    margin-left: -5vw;
+    justify-content: center;
+    overflow-x: hidden;
+    
+    }
+
+.logo{
+        height: 100px;
+        width: 100px;
+        margin-left: 90vw;
+    }
+
+.input{
+        height: 10vh;
+        width: 18vw;
+        text-align: center ;
+    }
+    
+    
+    }
